@@ -1,1 +1,1 @@
-import './example-checklist';
+import './x-552177-example-checklist';

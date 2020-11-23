@@ -1,46 +1,42 @@
 {
-    "name": "@servicenow/now-exeperience-sample-components",
-    "version": "0.0.1",
-    "private": false,
-    "description": "Custom elements to show sample Customer360 , To-Do List & Agent Assist",
-    "keywords": [
-        "ServiceNow",
-        "Now Experience UI Component",
-        "@servicenow/now-exeperience-sample-components"
-    ],
-    "readme": "./README.md",
-    "engines": {
-        "node": ">=8.6.0",
-        "npm": ">=5.3.0"
+	"name": "@myorg/new-component",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@servicenow/new-component"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"scripts": {
+        "start:checklistExample": "now-cli develop --open --entry=./checklist.js"
     },
-    "module": "src/index.js",
-    "scripts": {
-        "start:agentAssistExample": "now-cli develop --open --entry=./agentAssist.js",
-        "start:counterExample": "now-cli develop --open --entry=./counter.js",
-        "start:checklistExample": "now-cli develop --open --entry=./checklist.js",
-        "start:customer360Example": "now-cli develop --open --entry=./customer360.js",
-        "start:flashCardExample": "now-cli develop --open --entry=./flashCard.js",
-        "start:taskBoardExample": "now-cli develop --open --entry=./taskBoard.js"
-    },
-    "dependencies": {
-        "@servicenow/behavior-rtl": "paris",
-        "@servicenow/now-avatar": "paris",
-        "@servicenow/now-heading": "paris",
-        "@servicenow/now-icon": "paris",
-        "@servicenow/now-label-value": "paris",
-        "@servicenow/sass-kit": "paris",
-        "@servicenow/sass-theme": "paris",
-        "@servicenow/now-loader": "paris",
-        "@servicenow/now-button": "paris",
-        "@servicenow/now-toggle": "paris",
-        "@servicenow/ui-core": "paris",
-        "@servicenow/ui-effect-http": "paris",
-        "@servicenow/ui-renderer-snabbdom": "paris",
-        "@servicenow/cli-archetype": "paris",
-        "@servicenow/cli-component-archetype": "paris"
-    },
-    "devDependencies": {
-        "@servicenow/cli-archetype-dev": "paris",
-        "@servicenow/cli-component-archetype-dev": "paris"
-    }
+	"dependencies": {
+		"@servicenow/library-translate": "paris",
+		"@servicenow/behavior-rtl": "paris",
+		"@servicenow/now-avatar": "paris",
+		"@servicenow/now-heading": "paris",
+		"@servicenow/now-icon": "paris",
+		"@servicenow/now-label-value": "paris",
+		"@servicenow/sass-kit": "paris",
+		"@servicenow/sass-theme": "paris",
+		"@servicenow/now-loader": "paris",
+		"@servicenow/now-button": "paris",
+		"@servicenow/now-toggle": "paris",
+		"@servicenow/ui-core": "paris",
+		"@servicenow/ui-effect-http": "paris",
+		"@servicenow/ui-renderer-snabbdom": "paris",
+		"@servicenow/cli-archetype": "18.0.0",
+		"@servicenow/cli-component-archetype": "18.0.0"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "18.0.0",
+		"@servicenow/cli-component-archetype-dev": "18.0.0"
+	}
 }
