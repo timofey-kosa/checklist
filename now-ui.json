@@ -1,0 +1,24 @@
+{
+
+		"example-checklist" : {
+			"uiBuilder": {
+				"label": "Checklist",
+				"icon": "list-fill",
+				"description": "Logged in users can manage their tasks",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core"
+				]
+			},
+	        "innerComponents": [
+				"now-heading",
+				"now-loader",
+				"now-button",
+				"now-toggle",
+				"example-checklist-item",
+				"now-label-value-inline",
+				"now-button-iconic"
+			]
+		},	
+	"scopeName": "x_now_components"
+}
